@@ -1,6 +1,10 @@
 import PySimpleGUI as sg
 import re
 import hashlib
+
+def print.hello():
+    print ("Hello")
+    
 def hash(fname, algo):
     if algo == 'MD5':
         hash = hashlib.md5()
