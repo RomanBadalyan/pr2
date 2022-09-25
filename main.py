@@ -2,8 +2,7 @@ import PySimpleGUI as sg
 import re
 import hashlib
 
-def print.hello():
-    print ("Hello")
+# тут мы добавили коммит
     
 def hash(fname, algo):
     if algo == 'MD5':
