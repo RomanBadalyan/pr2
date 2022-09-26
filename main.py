@@ -2,9 +2,41 @@ import PySimpleGUI as sg
 import re
 import hashlib
 
+## @package pyexample
+#  Documentation for this module.
+#
+#  More details.
+
 # тут мы добавили коммит
+
+    ## Documentation for a method.
+    #  @param self The object pointer.
     
 def hash(fname, algo):
+## this function allows you to select one of the hashing methods, then accesses the desired library
+#   Args:
+#       fname: file
+#       algo: str
+#       hash: hash
+#   Returns:
+#       hash.hexdigest().
+#   Examples:
+#       >>> check right files
+#       GUI, hash
+#
+#       >>> check first file
+#       print('Error: File 1 path not valid.')
+#
+#       >>> check second file
+#       print('Error: File 1 path not valid.')
+#
+#       >>> values[1] is not True and values[2] is not True and values[4] is not True:
+#       print('Error: Choose at least one type of Encryption Algorithm')
+#
+#       >>> invalid file name
+#       print('Files do NOT match for ', algo)
+##
+
     if algo == 'MD5':
         hash = hashlib.md5()
     elif algo == 'SHA1':
