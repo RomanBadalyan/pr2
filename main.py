@@ -101,3 +101,21 @@ while True:                             # The Event Loop
         else:
             print('Please choose 2 files.')
 window.close()
+"""
+Test for wily
+Test for radon
+Test for wily
+Test for radon
+Test for wily
+Test for radon
+Test for wily
+Test for radon
+Test for wily
+Test for radon
+Test for wily
+Test for radon
+Test for wily
+Test for radon
+Test for wily
+Test for radon
+"""
